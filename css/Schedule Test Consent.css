@@ -1,0 +1,25 @@
+
+.signature{
+    left: 1100px;
+    top: 490px;
+    position:fixed;
+    text-align: center;
+    z-index: 20;
+    font-size: 12px;
+    font-weight: 200;
+    color: #4D4D4D;
+}
+
+#text-input{
+    height: 30px;width: 100px; left:1100px; top:530px; position:fixed; box-shadow:inset 1px 1px 1px 1px #e3e3e3;
+}
+
+.consentBack{
+    left: 1100px;
+    top: 140px;height: 40px;width: 80px;font-size: 14.5px
+}
+
+.consentSubmit{
+    left: 1110px;
+    top: 600px;height: 40px;width: 80px;font-size: 14px
+}

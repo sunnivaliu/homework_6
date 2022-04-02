@@ -1,0 +1,137 @@
+
+
+table {
+    width:500px; position:fixed; top: 230px; left: 500px
+}
+
+th,td {
+        font-weight: 100;background-color: #e5e5e5;padding: 10px;
+            font-size: 14px;
+}
+
+th input,td input {
+    height: 18px;
+    width: 18px;
+    box-shadow: inset 1px 1px 1px #B9B9B9;
+    background-color: white;
+    border:none;
+}
+
+.search input {
+    height: 25px;
+    width: 100px;
+    position:fixed;
+    left:750px;
+    top:190px;
+    box-shadow: inset 2px 2px 3px #B9B9B9, inset -2px -2px 3px #B9B9B9;
+    border: none;
+    background-color: white;
+    border-radius: ;
+}
+
+/*  Back */
+.slot-button{
+    left: 1050px;
+    top: 140px;height: 40px;width: 80px;font-size: 14.5px;
+}
+
+.delete{
+    background-color: #e5e5e5;
+    left: 930px;
+    top: 189px;height: 25px;width: 50px;font-size: 11px;
+    color: #4D4D4D;
+    border: 0.2px groove #b3b3b3;
+    box-shadow: 1px 1px 10px #b3b3b3;
+}
+
+.edit{
+    background-color: #e5e5e5;
+    left: 880px;
+    top: 189px;height: 25px;width: 40px;font-size: 11px;
+    color: #4D4D4D;
+    border: 0.2px groove #b3b3b3;
+    box-shadow: 1px 1px 10px #b3b3b3;
+}
+
+.add{
+    background-color: #e5e5e5;
+    left: 930px;
+    top: 189px;height: 25px;width: 40px;font-size: 11px;
+    color: #4D4D4D;
+    border: 0.2px groove #b3b3b3;
+    box-shadow: 1px 1px 10px #b3b3b3;
+}
+
+.vaccinebutton {
+    left: 800px;
+    height: 30px;
+    width: 60px;
+    font-size: 12px;
+    font-weight: 400;
+    border-radius: 10px;
+    background-color: #d3d3d3;
+    color: #4d4d4d;
+    border: none;
+    box-shadow: 3px 3px 8px #b3b3b3;
+}
+
+.vaccinebuttonsearch{
+    left: 860px;
+    top: 188px;
+}
+
+.vaccinebutton:hover{
+    color: white;
+    background-color: #4d4d4d;
+}
+
+
+.pfitzer{
+    left: 500px;
+    top: 220px;
+}
+
+.moderna{
+    left: 575px;
+    top: 220px;
+}
+
+.booster{
+    left: 650px;
+    top: 220px;
+}
+
+
+.confirm{
+    left: 1060px; top: 566px;height: 40px;width: 80px;font-size: 14px
+}
+
+.viewSlot{
+    left: 965px;
+    width:20px;height: 20px;background-color: #4d4d4d
+}
+
+.viewavailable{
+    text-align: center;
+    left: 855px;
+    top: 230px;
+    position: fixed;
+    font-size: 12px;
+}
+
+
+.edit_title{
+    position: fixed;
+    font-weight: 300;
+    left: 500px;
+    top: 115px;
+}
+.edit_content{
+    position: fixed;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: 600;
+    left: 500px;
+    top: 142px;
+}
+

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>View Available Test Slot</title>
+    <meta charset="UTF-8">
+    <!-- styles -->
+    <link rel="stylesheet" href="../css/covidstyle.css">
+    <link rel="stylesheet" href="../css/table.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <script src="../js/covid.js" type="text/javascript"></script>
+</head>
+<body>
+    <div class="sidenav">
+        <p> &nbsp; </p> <br><br>
+        <a href="home.html" style='font-size: 28px; letter-spacing: 0.5px;'>Home</a> <br>
+        <a href="Make an appointment.html">Make an Appointment</a>
+        <a href="My tartan testing.html">My Tartan Testing</a>
+        <a href="My Vaccination.html">My Vaccination</a>
+        <a href="View Test Slot.html">View Test Slot</a>
+        <a href="View Vaccination Slot.html">View Vaccination Slot</a>
+    </div>
+    <div class='logout'>
+        <a href="login.html">Log Out</a>
+    </div>
+    <div class='arrow'> </div>
+    <div class="logo">
+        Carnegie Mellon University
+    </div>
+
+    <div class="main">
+        <a> View Available Test Slot</a>
+        <br><br>
+        <p1> Set Search Start Date (DD/MM/YY): </p1>
+        <p> &nbsp; </p>
+    </div>
+    <div class='search'>
+        <input id="text-input" type="text"> </input>
+        <a href=#> <button class="selectbutton vaccinebutton vaccinebuttonsearch"> Search </button></a>
+    </div>
+    <a href="home.html"><button class="selectbutton slot-button"> Back </button> </a>
+    <div class="viewavailable">
+        View Available Slot: &nbsp;
+        <input type="button" class='selectbutton viewSlot' onclick='viewAllTest();' style="background-color: #CC002B;" >
+    </div>
+    <table style="top:260px;">
+            <tr>
+                <th style='width:480px;'>Monday, February 7, 2022 6:40 AM (5 min) at TCS Hall</th>
+                <th style='width:20px;'> 3</th>
+            </tr>
+            <tr>
+                <td>Monday, February 7, 2022 7:05 AM (5 min) at TCS Hall</td>
+                <td>2 </td>
+            </tr>
+            <tr>
+                <td>Monday, February 7, 2022 7:10 AM (5 min) at TCS Hall</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Monday, February 7, 2022 9:15 AM (5 min) at TCS Hall </td>
+                <td>3</td>
+            </tr>
+            <tr>
+                <td>Monday, February 7, 2022 9:20 AM (5 min) at TCS Hall </td>
+                <td>4</td>
+            </tr>
+            <tr>
+                <td>Monday, February 7, 2022 9:50 AM (5 min) at TCS Hall</td>
+                <td>5</td>
+            </tr>
+            <tr>
+                <td>Monday, February 7, 2022 10:15 AM (5 min) at TCS Hall </td>
+                <td>2</td>
+            </tr>
+            <tr>
+                <td>Monday, February 7, 2022 11:20 AM (5 min) at TCS Hall </td>
+                <td>1</td>
+            </tr>
+
+    </table>
+
+</body>

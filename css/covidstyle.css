@@ -1,0 +1,259 @@
+
+
+/* home.html */----------------------------------------------------
+
+
+html, body{
+     min-height: 100%;
+}
+
+body {
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    color: #4D4D4D;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+
+.main{
+    position: fixed;
+    left: 500px;
+    top: 150px;
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.main a {
+    position: fixed;
+    left: 500px;
+    top: 135px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#hometitle{
+    font-weight: 700;
+}
+
+.selectbutton{
+    position: fixed;
+    z-index: 5;
+    box-shadow: 10px 10px 30px #b3b3b3;
+    background-color: #CC002B;
+    border-radius: 25px;
+    text-align: center;
+    z-index: 20;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    border: 1px groove #b3b3b3;
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.selectbutton:hover {
+    background-color: #4D4D4D;
+    box-shadow: 0px 15px 20px #b3b3b3;
+    color: #fff;
+    transform: translateY(-1px);
+}
+
+.sidenav{
+    height: 100%;
+    width: 300px;
+    position: fixed;
+    margin-left: 10px;
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #CC002B;
+    overflow-x: hidden; /* Disable horizontal scroll */
+    box-shadow: 10px 20px 20px #b3b3b3, -3px -3px 5px #b3b3b3;
+}
+
+
+.sidenav a{
+    text-align: center;
+    padding: 45px 10px 6px 16px;
+    font-size: 16px;
+    display: block;
+    font-weight: lighter;
+    line-height: 20px;
+    text-decoration-line: none;
+    text-decoration-thickness: 0.4px;
+    color: rgba(255, 255, 255, 0.9);
+    letter-spacing: -0.4px;
+}
+
+.sidenav a:link:hover{
+    text-decoration-line: underline;
+}
+
+.logo{
+    height: 7%;
+    width:  320px;
+    position: fixed;
+    z-index: 1;
+    top: 30;
+    left: 0;
+    background-color: #4D4D4D;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.logout a{
+    position:fixed;
+    left:1200px;
+    top:90px;
+    color: #4d4d4d;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+}
+
+.logout a:link:hover{
+    text-decoration: underline;
+}
+
+.arrow {
+    position: fixed;
+    left: 1190px;
+    top: 95px;
+    color: #4d4d4d;
+    border: solid black;
+    transform: rotate(135deg);
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+/* login.html */----------------------------------------------------
+
+#shape{
+    position: fixed;
+    left: 500px;
+    top: 100px;
+}
+
+#logo{
+    position: fixed;
+    left: 555px;
+    top: 230px;
+    z-index: 1;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 100;
+    font-size: 15px;
+}
+
+#fight{
+    position: fixed;
+    left: 850px;
+    top: 225px;
+    z-index: 3;
+    color: rgba(255, 255, 255, 0.85);
+    font-weight: 100;
+    font-size: 8px;
+}
+
+#login{
+    position: fixed;
+    left: 570px;
+    top: 260px;
+    z-index: 2;
+    color: rgba(255, 255, 255, 0.85);
+    font-size: 30px;
+    font-weight: 900;
+}
+
+#loginput{
+    position: fixed;
+    left: 570px;
+    top: 400px;
+    z-index: 4;
+    line-height: 3;
+    color: white;
+    text-align: left;
+    color: #4d4d4d;
+    font-size: 15px;
+}
+
+
+
+#submit{
+    position: fixed;
+    left: 685px;
+    top: 507px;
+    z-index: 9;
+    line-height: 3;
+    color: rgba(255, 255, 255, 0.85);
+    text-align: top;
+    font-size: 13px;
+    font-weight: 800;
+}
+
+
+.button:hover {
+  background-color: #4D4D4D;
+  box-shadow: 0px 15px 20px grey;
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+
+/* Make an appointment.html */----------------------------------------------------
+
+
+#title1{
+    position: fixed;
+    top: 50px;
+    left: 300px;
+}
+
+#selectitle{
+    position: fixed;
+    left: 650px;
+    top: 170px;
+    text-align: center;
+    z-index: 20;
+    font-size: 20px;
+    font-weight: 200;
+    color: #4D4D4D;
+}
+
+.btn1 {
+    left: 600px;
+    top: 375px;
+    height: 50px;
+    width: 300px;
+}
+
+.btn2 {
+    left: 600px;
+    top: 275px;
+    height: 50px;
+    width: 300px;
+}
+
+/* Schedule Test Consent.html */----------------------------------------------------
+
+.signature{
+    left: 400px;
+    top: 200px;
+    position:fixed;
+    text-align: center;
+    z-index: 20;
+    font-size: 20px;
+    font-weight: 200;
+    color: #4D4D4D;
+}
+
+
+
