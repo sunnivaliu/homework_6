@@ -5,11 +5,12 @@ USE CHROME!!!
 DO NOT USE SAFARI!!!
 
 Added Functionality from 6A to 6B:
-Edit and Delete Appointment for both Vaccine and Tartan Test
-Select Covid Vaccine Type
-Style changes (it can fit into a full-screen page) 
-Move some style from html to css files
-Improved Usability
+
+Edit and Delete Appointment for both Vaccine and Tartan Test;
+Select Covid Vaccine Type;
+Style changes (it can fit into a full-screen page) ;
+Move some style from html to css files;
+Improved Usability.
 
 BONUS: 
 1. Useful functionality: when user click delete an appointment on My Vaccination/My Tartan Testing, the system will alert them to double check your action.
