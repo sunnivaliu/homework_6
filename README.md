@@ -3,6 +3,7 @@
 
 USE CHROME!!!
 DO NOT USE SAFARI!!!
+Also, avoid using Browser's back button "<-" Thanks :-) 
 
 Added Functionality from 6A to 6B:
 
