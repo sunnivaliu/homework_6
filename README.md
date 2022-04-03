@@ -11,6 +11,12 @@ Style changes (it can fit into a full-screen page)
 Move some style from html to css files
 Improved Usability
 
+BONUS: 
+1. Useful functionality: when user click delete an appointment on My Vaccination/My Tartan Testing, the system will alert them to double check your action.
+2. Useful functionality: when user click more than one slot or not clicking any slot or not clicking the vaccine type, the system will alert them that their selection should not be empty/should not be more than one. (because for making a tartan testing appointment, it does not make sense to make more than one tartan testing appointment or make an empty appointment.
+3. Interesing functionality: on View Testing Slot and View Vaccine Slot page: view available test / vaccination slot by clicking the round button. Click again to view all Slots.
+4. Product feedback and shopping cart: show that you have made your appointment not only on home page but also on My Tartan Testing page and My Vaccination page, and synchronizing the add/edit/delete to all pages on the system.
+
 Product Functionality & Tasks:
 
 Log-in to Home Page Click “Submit” on login page to log into homepage. Click “Log out” on top-left corner to go back to login page
